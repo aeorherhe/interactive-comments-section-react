@@ -40,7 +40,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 ### Links
 
 - Solution URL: [solution](https://github.com/aeorherhe/interactive-comments-section-react.git)
-- Live Site URL: [live site](https://aeorherhe-comment-section-react.app)
+- Live Site URL: [live site](https://aeorherhe-comment-section-react.netlify.app)
 
 ### Built with
 

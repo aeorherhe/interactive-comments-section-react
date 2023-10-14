@@ -10,7 +10,11 @@ const ReplyInputBox = ({ type, index }) => {
   return (
     <StyledReplyInputBox>
       <div className="user-img">
-        <img src={currentUser.image.webp} alt="" />
+        <img
+          src={currentUser.image.webp}
+          alt={currentUser.username}
+          className="user-img"
+        />
       </div>
       <textarea
         name="reply"
@@ -70,5 +74,19 @@ const StyledReplyInputBox = styled.div`
     font-family: "Rubik";
     font-size: 1rem;
     padding: 0.5rem;
+  }
+
+  @media screen and (max-width: 45rem) {
+    gap: 0.5rem;
+
+    .send-btn {
+      padding: 0.25rem 0.75rem;
+      font-size: 0.75rem;
+    }
+
+    .user-img {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 `;

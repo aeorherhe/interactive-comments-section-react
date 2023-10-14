@@ -74,4 +74,11 @@ const StyledReplies = styled.section`
     gap: 1rem;
     width: 100%;
   }
+
+  @media screen and (max-width: 45rem) {
+    .replies {
+      flex-direction: column-reverse;
+      gap: 1rem;
+    }
+  }
 `;

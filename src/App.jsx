@@ -19,8 +19,11 @@ export default App;
 /******************* styled component ************************/
 
 const StyledApp = styled.main`
-  padding: 2rem;
+  padding: 1rem;
   margin: 2rem auto 10rem;
   max-width: 70rem;
-  /* width: 80vw; */
+
+  @media screen and (min-width: 45rem) {
+    padding: 2rem;
+  }
 `;

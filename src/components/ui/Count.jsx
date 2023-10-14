@@ -47,4 +47,11 @@ const StyledCount = styled.div`
     font-weight: 700;
     margin: 0.5rem 0;
   }
+
+  @media screen and (max-width: 45rem) {
+    display: flex;
+    gap: 1.25rem;
+    padding: 0.125rem 1.25rem;
+    margin: 0.75rem 0 0;
+  }
 `;

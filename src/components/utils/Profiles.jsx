@@ -70,4 +70,11 @@ const StyledProfiles = styled.section`
     box-shadow: var(--box-shadow-2);
     border-radius: var(--border-radius);
   }
+
+  @media screen and (max-width: 45rem) {
+    .contents {
+      flex-direction: column-reverse;
+      gap: 1rem;
+    }
+  }
 `;
